@@ -91,6 +91,7 @@ for (let key in person) {
 //6
 
 
+
 let obj = {
     name: "anubhav",
     fnc: function () {
