@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+html,
+body{
+    height:100%;
+    width:100%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    background-color: black;
+    
+}
+#box{
+    height: 200px;
+    width: 200px;
+    background-color:slateblue ;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+
+button{
+    padding: 10px 20px;
+    background-color: cornflowerblue;
+    font-weight: 400;
+    border: none;
+    border-radius: 20px;
+
+}
+
+button:active{
+    background-color: burlywood;
+}
