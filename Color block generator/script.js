@@ -15,7 +15,6 @@ btn.addEventListener('click', function(){
   div.style.left = x + '%';
   div.style.top = y + '%';
   div.style.rotate = r+'deg';
-  
   var c1 = Math.floor(Math.random()*256);
   var c2 = Math.floor(Math.random()*256);
   var c3 = Math.floor(Math.random()*256);
