@@ -60,9 +60,8 @@ btn.addEventListener('click', function () {
     var winner = arr[Math.floor(Math.random()*arr.length)];
 
     h1.innerHTML = `
-    <h5>${winner.FullName}</h5>
-    <p><b>Team:</b> ${winner.Team}</p>
-    <p><b>Captain:</b> ${winner.Captain}</p>
+    <h4>${winner.FullName}</h4>
+    <p>${winner.Captain}</p>
     <p><b>Trophies:</b> ${winner.Trophies}</p>
     
 `;
